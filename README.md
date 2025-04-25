@@ -15,10 +15,30 @@ Service Pronto is a modern, full-stack Progressive Web Application (PWA) designe
 
 ## Technology Stack
 
-- **Frontend**: React (with Context API), HTML5, CSS3
-- **Backend**: Node.js, Express (customizable for your needs)
-- **Database**: (Pluggable; e.g., MongoDB, PostgreSQL, etc.)
-- **Deployment**: Easily deployable to cloud or on-premises
+### Frontend
+- **Framework:** React 18 (with Context API)
+- **Routing:** react-router-dom
+- **HTTP Client:** axios
+- **State/Context:** React Context API
+- **Testing:** @testing-library/react, @testing-library/jest-dom, @testing-library/user-event
+- **WebSockets:** socket.io-client
+- **Build Tool:** react-scripts
+
+### Backend
+- **Runtime:** Node.js
+- **Framework:** Express 4
+- **ORM:** Prisma 5
+- **Database:** PostgreSQL (configurable)
+- **Authentication:** bcryptjs (password hashing), jsonwebtoken (JWT)
+- **Environment Config:** dotenv
+- **CORS:** cors
+- **WebSockets:** socket.io
+- **Dev Tools:** nodemon
+
+### Project Management
+- **Monorepo structure:** Separate frontend and backend directories
+- **Version Control:** git, GitHub
+
 
 ## Getting Started
 
