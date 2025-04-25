@@ -1,5 +1,7 @@
 # Service Pronto
 
+## About
+
 Service Pronto is a modern, full-stack Progressive Web Application (PWA) designed to streamline mobile service management. Built with a modular frontend and scalable backend, it empowers businesses to efficiently manage staff, locations, and service requests from any device.
 
 ## Features
